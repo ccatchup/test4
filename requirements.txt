@@ -20,7 +20,7 @@ Pillow==10.3.0
 
 # Ensure compatibility on deployment (especially for SHAP + LightGBM backends)
 tqdm==4.66.2
-numba==0.59.1
+numba>=0.55.0
 
 # packages.txt
 libgl1-mesa-glx
