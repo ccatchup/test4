@@ -22,5 +22,4 @@ Pillow==10.3.0
 tqdm==4.66.2
 numba>=0.55.0
 
-# packages.txt
-libgl1-mesa-glx
+
