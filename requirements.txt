@@ -1,0 +1,23 @@
+# Core ML & Data Libraries
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# Streamlit for the frontend
+streamlit==1.35.0
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Explainability
+shap==0.45.0
+lime==0.2.0.1
+
+# Optional: Used in some plots to avoid font warnings
+Pillow==10.3.0
+
+# Ensure compatibility on deployment (especially for SHAP + LightGBM backends)
+tqdm==4.66.2
+numba==0.59.1
